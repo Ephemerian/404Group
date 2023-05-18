@@ -11,6 +11,7 @@
 @media only screen and (min-width: 768px) {
   .order-list {
     align-items: center;
+    margin-bottom: 80px;
   }
 }
 .order-item {
@@ -22,6 +23,12 @@
   height: 112px;
   background: var(--text-cl);
   border-radius: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .order-item {
+    width: 389px;
+    height: 128px;
+  }
 }
 .order-bg {
   min-width: 136px;
@@ -44,6 +51,7 @@
   font-weight: 400;
   line-height: 1.33;
   letter-spacing: -0.04em;
+  line-height: 24px;
   color: var(--text-cl);
 }
 .order-text {
