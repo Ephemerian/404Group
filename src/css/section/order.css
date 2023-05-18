@@ -1,7 +1,3 @@
-.order__container {
-  background-color: var(--main-cl);
-}
-
 .order-list {
   display: flex;
   flex-direction: column;
