@@ -1,0 +1,90 @@
+:root {
+  --main-cl: #AE1332;
+  --accent-green-cl: #A4CB66;
+  --accent-yellow-cl: #F5CE13;
+  --text-cl: #FFFFFF;
+  --darkmode-cl: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: currentColor;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden
+}
+
+.is-hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.container {
+  min-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* For Tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* For Desktop */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1216px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
