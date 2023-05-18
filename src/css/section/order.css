@@ -12,6 +12,12 @@
   .order-list {
     align-items: center;
     margin-bottom: 80px;
+    gap: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .order-list {
+    flex-direction: row;
   }
 }
 .order-item {
@@ -28,6 +34,12 @@
   .order-item {
     width: 389px;
     height: 128px;
+  }
+}
+@media only screen and (min-width: 1280) {
+  .order-item {
+    width: 389px;
+    height: 129px;
   }
 }
 .order-bg {
