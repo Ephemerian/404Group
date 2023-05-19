@@ -73,7 +73,8 @@
 }
 
 .container {
-  min-width: 375px;
+  min-width: 320px;
+  max-width: 375px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 20px;
