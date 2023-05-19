@@ -17,6 +17,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
+body {
+  font-family: DM Sans;
+  letter-spacing: -0.04em;
+  color: var(--text-cl);
+  background-color: var(--main-cl);
+}
+
 ul {
   margin: 0;
   padding: 0;
