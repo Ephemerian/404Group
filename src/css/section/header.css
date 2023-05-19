@@ -7,7 +7,6 @@
 }
 
 .header__container {
-  /* position: fixed; */
   padding-top: 17px;
   padding-bottom: 17px;
 
@@ -15,7 +14,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 94px;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -69,14 +67,14 @@
   color: var(--accent-green-cl);
 }
 
-.header__logo {
+.header__logo.logo {
   display: flex;
   justify-content: left;
   align-items: center;
   gap: 8px;
 }
 
-.header__logo-text {
+.header__logo-text.logo-text {
   margin-right: auto;
   font-weight: 700;
   line-height: 1.29;
