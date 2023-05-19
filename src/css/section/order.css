@@ -54,7 +54,6 @@
   background: var(--accent-yellow-cl);
 }
 .order-header {
-  font-family: 'DM Sans';
   font-size: 18px;
   font-weight: 400;
   line-height: 1.33;
@@ -63,7 +62,6 @@
   color: var(--text-cl);
 }
 .order-text {
-  font-family: 'DM Sans';
   line-height: 1.29;
   letter-spacing: -0.04em;
   font-size: 14px;
