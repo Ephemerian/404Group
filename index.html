@@ -13,15 +13,47 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/404Group/assets/index-7339b0dd.js"></script>
-    <link rel="stylesheet" href="/404Group/assets/index-649214e6.css">
+    <link rel="stylesheet" href="/404Group/assets/index-de941fd9.css">
   </head>
   <body>
     <header class="header">
   <div class="container header__container">
-    <p>Header section</p>
+    <nav class="header__nav">
+      <ul class="header__list list">
+        <li class="header__item item">
+          <a class="header__link link" href="">How It Works</a>
+        </li>
+        <li class="header__item item">
+          <a class="header__link link" href="">Fruits</a>
+        </li>
+        <li class="header__item item">
+          <a class="header__link link" href="">Contacts</a>
+        </li>
+      </ul>
+      <a class="header__logo link" href="">
+        <svg class="header__image" width="16" height="16">
+          <use href="../img/sprite.svg#icon-logo">
+          </use>
+        </svg>
+        <span class="header__logo-text">fresh harvest box</span>
+      </a>
+    </nav>
+
+    <button class="header__toggle js-open-modal" aria-expanded="false" aria-controls="modal-window">
+      <svg class="" width="24" height="24">
+        <use href="../img/sprite.svg#icon-toggle">
+        </use>
+      </svg>
+    </button>
+    <button class="header__bascket js-open-modal" aria-expanded="false" aria-controls="modal-window">
+      <svg class="header__bascket-image" width="28" height="28">
+        <use href="../img/sprite.svg#icon-bascket">
+        </use>
+      </svg>
+    </button>
+
   </div>
 </header>
-
     <main>
       <section class="hero" id="hero">
   <div class="container hero__container">
