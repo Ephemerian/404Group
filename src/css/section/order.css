@@ -74,7 +74,7 @@
   height: 416px;
   border-radius: 20px;
   overflow: hidden;
-  background-image: url(./src/img/order/fruits.gif);
+  background-image: url(/img/order/fruits.gif);
   background-size: cover;
   background-position: 30%;
 }
