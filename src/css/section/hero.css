@@ -1,19 +1,24 @@
 .hero__container {
+  position: absolute;
   background: #ae1332;
   display: flex;
   flex-direction: column;
 }
 
+/* HERO CENTER */
+
 .hero__center {
   position: relative;
-  /* display: flex; */
   order: 1;
-  padding-top: 56px;
+  margin-top: 106px;
+
+  background-image: url(../img/hero/banana-straw@1x.png);
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .hero__center_text {
   position: absolute;
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -28,20 +33,22 @@
 
 .hero__center_img {
   position: relative;
-  top: 48px;
   display: block;
   box-sizing: border-box;
   max-width: 100%;
   height: auto;
   padding: 12px 12px 13px 12px;
+  margin-top: 54px;
   border: 1px solid #fff;
-  /* border-image: linear-gradient(to top, #fff 100%, #fff 44.18%, #fff 0%) 1; */
   border-radius: 500px;
+
+  max-width: 335px;
+  max-height: 509px;
 }
 
 .hero__center_link {
   position: absolute;
-  top: 570px;
+  bottom: -27px;
   right: 40%;
 
   display: flex;
@@ -53,7 +60,6 @@
 
   background-color: #ffffff;
 
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -69,12 +75,142 @@
   transform: rotate(-14deg);
 }
 
-.hero__left-side {
-  /* display: flex; */
-  order: 2;
-  margin-top: 44px;
+.hero__center_link:hover,
+.hero__center_link:focus {
+  color: #a4cb66;
 }
+
+/* HERO LEFT SIDE */
+
+.hero__left-side {
+  order: 2;
+  margin-top: 71px;
+}
+
+.hero__left-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.hero__left-card {
+  width: 249px;
+  height: 387px;
+  background: #a4cb66;
+  border-radius: 500px;
+  padding: 28px 25px 40px 24px;
+
+  margin: 44px auto;
+}
+
+.hero__card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.hero__left-card-img {
+  width: 200px;
+  height: 172px;
+  margin-top: 61px;
+  margin-bottom: 2px;
+  filter: drop-shadow(0 15px 10px rgba(0, 0, 0, 0.3));
+}
+
+.hero__left-card-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+/* HERO RIGHT SIDE */
 
 .hero__right-side {
   order: 3;
+}
+
+.hero__right-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  justify-content: center;
+}
+
+.hero__right-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+  width: 125px;
+  height: 38px;
+  padding: 12px auto;
+  border: 1px solid #ffffff;
+  border-radius: 1000px;
+}
+
+.hero__right-card {
+  width: 249px;
+  height: 387px;
+  padding: 28px 44px 40px 43px;
+  margin: 44px auto 0;
+
+  background: #f5ce13;
+  border-radius: 500px;
+}
+
+.hero__right-card-img {
+  width: 162px;
+  height: 185px;
+  margin: 19px auto 17px;
+  filter: drop-shadow(0 15px 10px rgba(0, 0, 0, 0.3));
+}
+
+.hero__right-card-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
