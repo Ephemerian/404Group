@@ -1,8 +1,15 @@
 .img-one{
 border-radius: 20px;
-
 }
+
+.fresh-box__container {
+position: relative; 
+}
+
 .title-fresh-box {
+    position: absolute;
+    width: 335px;
+    top: -54px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
