@@ -1,0 +1,149 @@
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+
+  background-color: var(--text-cl);
+}
+
+.header__container {
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 94px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav {
+    display: flex;
+  }
+}
+
+.header__list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+    margin-right: 94px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__list {
+    margin-right: 322px;
+  }
+}
+
+
+.header__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+
+  color: var(--main-cl);
+
+  transition: color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__link:hover,
+.header__link:focus {
+  color: var(--accent-green-cl);
+}
+
+.header__logo.logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__logo-text.logo-text {
+  margin-right: auto;
+  font-weight: 700;
+  line-height: 1.29;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: var(--main-cl);
+}
+
+/* For Mobile */
+.header__toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+  fill: var(--main-cl);
+
+  transition: fill;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__toggle:hover,
+.header__toggle:focus {
+  fill: var(--accent-green-cl);
+}
+
+
+@media screen and (min-width:768px) {
+  .header__toggle {
+    display: none;
+  }
+}
+
+.header__bascket {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .header__bascket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    fill: var(--main-cl);
+
+    transition: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.header__bascket:hover,
+.header__bascket:focus {
+  fill: var(--accent-green-cl);
+}
