@@ -1,0 +1,152 @@
+.footer {
+  width: 100%;
+  background-color: var(--text-cl);
+}
+
+@media screen and (min-width:768px) {
+  .footer__container {
+
+    display: flex;
+    /* gap: 171px; */
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer__image {
+  display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding-top: 80px;
+}
+
+.footer__logo.logo {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .footer__logo.logo {
+    margin-bottom: 80px;
+  }
+}
+
+.footer__logo-text.logo-text {
+  font-weight: 700;
+  line-height: 1.29;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: var(--main-cl);
+
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+  margin-bottom: 44px;
+}
+
+.footer__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+
+  color: var(--main-cl);
+
+  transition: color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--accent-green-cl);
+}
+
+.footer__socials {
+  margin-bottom: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.footer__socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid var(--main-cl);
+  border-radius: 10px;
+
+  transition: background;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__socials-link:hover,
+.footer__socials-link:focus {
+  background: rgba(174, 19, 50, 0.1);
+}
+
+.address__list {
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+
+
+}
+
+.address__item {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.address__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  color: var(--main-cl);
+}
+
+@media screen and (min-width:1280px) {
+  .footer__left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 243px;
+  }
+}
