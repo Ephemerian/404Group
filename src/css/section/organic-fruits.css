@@ -1,4 +1,4 @@
-.organic-section-titel {
+.organic-section-title {
   padding-bottom: 14px;
 }
 
@@ -23,36 +23,36 @@
 
   border-radius: 20px;
 }
-.item-bg-color {
+.item-bg-strawberry {
   background-color: #f8766b;
 }
 
-.item-bg-color-1{
+.item-bg-banana {
     background-color: #EDD251;
 }
-.item-bg-color-2{
+.item-bg-watermelon {
     background-color: #9DC262;
 }
-.item-bg-color-3{
+.item-bg-lime {
     background-color: #BFD663;
 }
-.item-bg-color-4{
+.item-bg-apple {
     background-color: #E93F29;
 }
-.item-bg-color-5{
+.item-bg-peach {
     background-color: #DB4F4B;
 }
-.item-bg-color-6{
+.item-bg-plums {
     display: none;
 }
-.item-bg-color-7{
+.item-bg-orange {
     display: none;
 }
-.item-bg-color-8{
+.item-bg-kiwi {
     display: none;
 }
 
-.fruits-name {
+.organic-fruits-name {
   margin-right: auto;
   margin-bottom: 8px;
 }
@@ -61,8 +61,9 @@
   margin-right: auto;
   letter-spacing: -0.02em;
 }
-.item-img {
+.organic-item-img {
   margin: 0;
+  filter: drop-shadow(0 15px 10px rgba(0, 0, 0, 0.3));
 }
 .organic-price-link {
   display: block;
