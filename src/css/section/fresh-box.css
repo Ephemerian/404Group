@@ -2,3 +2,18 @@
 border-radius: 20px;
 
 }
+.title-fresh-box {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
