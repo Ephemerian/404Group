@@ -1,3 +1,22 @@
+.hero {
+  padding-top: 56px;
+  padding-bottom: 80px;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 137px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero {
+    padding-bottom: 150px;
+  }
+}
+
 .hero__container {
   display: flex;
   flex-direction: column;
@@ -39,11 +58,14 @@
 @media only screen and (min-width: 768px) {
   .hero__center {
     margin-top: 114px;
+
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero__center {
+    background-position: top;
+    margin-top: -48px;
     order: 2;
   }
 }
@@ -73,10 +95,12 @@
 
 @media only screen and (min-width: 1280px) {
   .hero__center_text {
+
     font-size: 64px;
     max-width: 910px;
-    top: 0px;
-    right: 13%;
+    top: 8px;
+    right: 0%;
+
   }
 }
 
@@ -90,13 +114,10 @@
 
   border-radius: 500px;
   background: linear-gradient(#ae1332, #ae1332) padding-box,
-    linear-gradient(
-        to top,
-        rgba(255, 255, 255, 1),
-        rgba(255, 255, 255, 0.44),
-        rgba(255, 255, 255, 0)
-      )
-      border-box;
+    linear-gradient(to top,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.44),
+      rgba(255, 255, 255, 0)) border-box;
   border: 1.5px solid transparent;
   z-index: -1;
 
@@ -113,11 +134,11 @@
   }
 }
 
-/*@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .hero__center_img {
-   
+    margin-top: 48px;
   }
-}*/
+}
 
 .hero__center_link {
   position: absolute;
@@ -193,6 +214,7 @@
 
 @media only screen and (min-width: 1280px) {
   .hero__left-side {
+    margin-top: 550px;
     order: 1;
   }
 }
