@@ -29,20 +29,20 @@
   gap: 14px;
   padding: 20px;
   align-items: center;
-  width: 335px;
+  max-width: 335px;
   height: 112px;
   background: var(--text-cl);
   border-radius: 20px;
 }
 @media only screen and (min-width: 768px) {
   .order-item {
-    width: 389px;
+    max-width: 389px;
     height: 128px;
   }
 }
 @media only screen and (min-width: 1280) {
   .order-item {
-    width: 389px;
+    max-width: 389px;
     height: 129px;
   }
 }
