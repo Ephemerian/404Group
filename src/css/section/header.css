@@ -8,9 +8,9 @@
 }
 
 .header__container {
-  padding-top: 17px;
-  padding-bottom: 17px;
 
+  height: 50px;
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
