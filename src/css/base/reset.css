@@ -22,6 +22,7 @@ body {
   letter-spacing: -0.04em;
   color: var(--text-cl);
   background-color: var(--main-cl);
+  z-index: -2;
 }
 
 ul {
