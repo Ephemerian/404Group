@@ -1,6 +1,7 @@
 .order-title {
   width: 335px;
   margin: 0 auto 14px;
+  box-shadow: 0px 4px 70px 0px #0000001a;
 }
 
 @media only screen and (min-width: 768px) {
@@ -13,6 +14,7 @@
 .order-paragraph {
   width: 335px;
   margin: 0 auto 44px;
+  box-shadow: 0px 4px 70px 0px #0000001a;
 }
 @media only screen and (min-width: 768px) {
   .order-paragraph {
