@@ -1,11 +1,30 @@
 .order-title {
-  margin-bottom: 14px;
+  font-size: 28px;
+  line-height: 28px;
+  max-width: 335px;
+  margin: 0 auto 14px;
+  box-shadow: 0px 4px 70px 0px #0000001a;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-title {
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 624px;
+    text-align: center;
+  }
 }
 
 .order-paragraph {
-  margin-bottom: 44px;
+  max-width: 335px;
+  margin: 0 auto 44px;
+  box-shadow: 0px 4px 70px 0px #0000001a;
 }
-
+@media only screen and (min-width: 768px) {
+  .order-paragraph {
+    max-width: 509px;
+  }
+}
 .order-list {
   display: flex;
   flex-direction: column;
@@ -29,20 +48,20 @@
   gap: 14px;
   padding: 20px;
   align-items: center;
-  width: 335px;
+  max-width: 335px;
   height: 112px;
   background: var(--text-cl);
   border-radius: 20px;
 }
 @media only screen and (min-width: 768px) {
   .order-item {
-    width: 389px;
+    max-width: 389px;
     height: 128px;
   }
 }
 @media only screen and (min-width: 1280) {
   .order-item {
-    width: 389px;
+    max-width: 389px;
     height: 129px;
   }
 }
