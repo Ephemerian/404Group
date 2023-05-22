@@ -1,0 +1,41 @@
+.backdrop {
+}
+
+.modal {
+  padding: 40px 20px;
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  top: 96px;
+  width: 335px;
+  height: 426px;
+  border-radius: 20px;
+  background-color: #e03f5e;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 18px;
+  right: 19px;
+  color: #fff;
+  background-color: none;
+}
+
+.modal-title {
+  letter-spacing: uppercase;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.modal-p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 99%;
+  align-items: Center;
+  letter-spacing: -4%;
+}
+
+.modal-img {
+  width: 207px;
+  height: 176px;
+  margin-bottom: 20px;
+}
