@@ -3,8 +3,17 @@
 }
 
 .organic-section-text {
+  margin: auto;
   padding-bottom: 44px;
 }
+
+@media only screen and (min-width: 768px) {
+  .organic-section-text {
+    width: 547px;
+  }
+}
+
+
 .organic-fruits-list {
   display: flex;
   flex-wrap: wrap;
@@ -28,28 +37,62 @@
 }
 
 .item-bg-banana {
-    background-color: #EDD251;
+  background-color: #edd251;
 }
 .item-bg-watermelon {
-    background-color: #9DC262;
+  background-color: #9dc262;
 }
 .item-bg-lime {
-    background-color: #BFD663;
+  background-color: #bfd663;
 }
 .item-bg-apple {
-    background-color: #E93F29;
+  background-color: #e93f29;
 }
 .item-bg-peach {
-    background-color: #DB4F4B;
+  background-color: #db4f4b;
 }
 .item-bg-plums {
-    display: none;
+  display: none;
 }
 .item-bg-orange {
-    display: none;
+  display: none;
 }
 .item-bg-kiwi {
-    display: none;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .organic-fruits-list {
+    gap: 16px;
+  }
+
+  .organic-fruits-item {
+    width: 344px;
+  }
+
+  .item-bg-plums {
+    display: flex;
+    background-color: #9b5366;
+  }
+
+  .item-bg-orange {
+    display: flex;
+    background-color: #f47f4c;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .organic-fruits-list {
+    gap: 24px;
+  }
+
+  .organic-fruits-item {
+    width: 389px;
+  }
+  .item-bg-kiwi {
+    display: flex;
+    background-color: #98b37e;
+  }
 }
 
 .organic-fruits-name {
@@ -106,10 +149,15 @@
 .organic-btn-svg {
   position: relative;
   top: 10px;
-  fill: var(--text-cl);
+  fill: currentColor;
   transform: rotate(-14deg);
 }
 .organic-btn-txt {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   transform: rotate(-14deg);
+}
+.organic_btn:hover,
+.organic_btn:focus {
+  color: var(--accent-green-cl);
+  background-color: var(--text-cl);
 }
