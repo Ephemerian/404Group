@@ -110,7 +110,7 @@
 }
 
 .section-text {
-  width: 334px;
+  max-width: 334px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
