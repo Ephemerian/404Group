@@ -1,11 +1,24 @@
 .order-title {
-  margin-bottom: 14px;
+  width: 335px;
+  margin: 0 auto 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-title {
+    width: 624px;
+    text-align: center;
+  }
 }
 
 .order-paragraph {
-  margin-bottom: 44px;
+  width: 335px;
+  margin: 0 auto 44px;
 }
-
+@media only screen and (min-width: 768px) {
+  .order-paragraph {
+    width: 509px;
+  }
+}
 .order-list {
   display: flex;
   flex-direction: column;
