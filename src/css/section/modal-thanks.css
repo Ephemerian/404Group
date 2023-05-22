@@ -1,0 +1,62 @@
+.backdrop-thanks {
+}
+
+.modal-thanks {
+  padding: 40px 20px;
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  top: 96px;
+  max-width: 335px;
+  max-height: 426px;
+  border-radius: 20px;
+  background-color: #e03f5e;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-thanks {
+    max-width: 600px;
+    max-height: 545px;
+  }
+}
+
+.modal-thanks-btn-close {
+  position: absolute;
+  top: 18px;
+  right: 19px;
+  color: #fff;
+  background-color: none;
+}
+
+.modal-thanks {
+  letter-spacing: uppercase;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.thanks-paragraph {
+  max-width: 295px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 99%;
+  align-items: Center;
+  letter-spacing: -4%;
+}
+
+@media only screen and (min-width: 768px) {
+  .thanks-paragraph {
+    max-width: 391px;
+  }
+}
+
+.modal-thanks-img {
+  max-width: 207px;
+  max-height: 176px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-thanks-img {
+    max-width: 278px;
+    max-height: 239px;
+  }
+}
