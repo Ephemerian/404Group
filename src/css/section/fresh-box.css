@@ -107,7 +107,19 @@
   top: -52px;
   left: 37px;
   width: 302px;
-}
+
+  animation: text-shadow-drop-bottom 0.6s both;
+  }
+  
+  @keyframes text-shadow-drop-bottom {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+  
+    100% {
+      text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+  }
 
 @media only screen and (min-width: 768px) {
   .title-fresh-box {
@@ -194,6 +206,12 @@
     border: 1px solid #9dc162;
     color: #fff;
   }
+
+  .form-btn:hover,
+  .form-btn:focus {
+    color: var(--accent-green-cl);
+    background-color: var(--text-cl);
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -206,5 +224,11 @@
     border-radius: 100px;
     border: 1px solid #9dc162;
     color: #fff;
+  }
+
+  .form-btn:hover,
+  .form-btn:focus {
+    color: var(--accent-green-cl);
+    background-color: var(--text-cl);
   }
 }
