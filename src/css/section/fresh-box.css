@@ -44,6 +44,7 @@
   }
 }
 
+
 .title-fresh-box {
   font-family: 'DM Sans';
   font-style: normal;
@@ -71,6 +72,17 @@
     top: -76px;
     left: 50px;
     width: 648px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .title-fresh-box {
+    top: -87px;
+
+    width: 740px;
+    height: 128px;
+    left: 238px;
+    font-size: 64px;
   }
 }
 
@@ -115,7 +127,7 @@
     display: block;
     border-radius: 100px;
     background-color: #ae1332;
-    border: 1px solid #fff;
+    border-color: #ffffff4d;
     margin: auto;
     height: 48px;
     width: 292px;
@@ -133,5 +145,11 @@
     border-radius: 100px;
     border: 1px solid #9dc162;
     color: #fff;
+  }
+}
+
+@media only screen and (min-width: 1208px) {
+  .form-btn {
+    left: 655px;
   }
 }
