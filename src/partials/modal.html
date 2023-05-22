@@ -1,5 +1,109 @@
 <section class="hero" id="hero">
   <div class="container hero__container">
-    <p>Hero section</p>
+    <button class="modal-button" type="button">
+      <svg class="modal-button-svg" width="14" height="14">
+        <use href="../img/sprite.svg#icon-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-subtitle">Your Order</h2>
+    <form class="modal-list-fruits">
+      <label class="modal-box-fruits">
+        <input type="checkbox" name="hobby" value="music" checked />
+        <h2 class="modal-tittle">Strawberry Basket</h2>
+        <p class="modal-text">Plant</p>
+        <img class="modal-list-img"
+          srcset="../img/modal/1_88.png 88w, ../img/modal/1_176.png 176w, ../img/modal/1_133.png 133w, ../img/modal/1_266.png 266w, ../img/modal/1_173.png 173w, ../img/modal/1_346.png 346w"
+          sizes="(min-width: 1280px) 173px, (min-width: 768px) 133px, (min-width: 375px) 88px, 100vw"
+          src="../img/modal/box-strawberry.png"
+          alt="box-strawberry"
+          width="173"
+          height="196"
+          loading="lazy"
+        />
+      </label>
+    </form>
+    <form class="modal-list-fruits">
+      <label class="modal-box-fruits">
+        <input type="checkbox" name="hobby" value="music"/>
+        <h2 class="modal-tittle">Apple Basket</h2>
+        <p class="modal-text">Plant</p>
+        <img class="modal-list-img"
+          srcset="../img/modal/2_106.png 106w, ../img/modal/2_172.png 172w, ../img/modal/2_212.png 212w, ../img/modal/2_229.png 229w, ../img/modal/2_344.png 344w, ../img/modal/2_458.png 458w"
+          sizes="(min-width: 1280px) 229px, (min-width: 768px) 172px, (min-width: 375px) 106px, 100vw"
+          src="../img/modal/box-fruits.png"
+          alt="box-strawberry"
+          width="173"
+          height="196"
+          loading="lazy"
+        />
+      </label>
+    </form>
+    <form class="modal-list-fruits">
+      <label class="modal-box-fruits">
+        <input type="checkbox" name="hobby" value="music"/>
+        <h2 class="modal-tittle">Fruits Basket</h2>
+        <p class="modal-text">Plant</p>
+        <img class="modal-list-img"
+        srcset="../img/modal/3_106.png 106w, ../img/modal/3_172.png 172w, ../img/modal/3_212.png 212w, ../img/modal/3_229.png 229w, ../img/modal/3_344.png 344w, ../img/modal/3_458.png 458w"
+          sizes="(min-width: 1280px) 229px, (min-width: 768px) 172px, (min-width: 375px) 106px, 100vw"
+          src="../img/modal/cup-fruits.png"
+          alt=""
+          width="173"
+          height="196"
+          loading="lazy"
+        />
+      </label>
+    </form>
+
+    <form class="modal-form" name="contacts-form">
+      <label class="" for="user_name" hidden>Enter full name...</label>
+      <div class="modal-form-field">
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user_name"
+          required
+          minlength="2"
+          placeholder="Enter full name..."
+        />
+      </div>
+      <label class="" for="user_email" hidden>Enter email...</label>
+      <div class="modal-form-field">
+        <input
+          class="modal-form-input"
+          type="email"
+          name="user_email"
+          required
+          pattern="^(?=.*[a-z])(?=.*[A-Z])$"
+          placeholder="Enter email..."
+        />
+      </div>
+      <label class="" for="user_number" hidden>Enter card..</label>
+      <div class="modal-form-field">
+        <input
+          class="modal-form-input"
+          type="number"
+          name="user_number"
+          required
+          pattern="^(?=.*[a-z])(?=.*[A-Z])$"
+          placeholder="Enter card.."
+          maxlength="16"
+        />
+      </div>
+      <label class="" for="user_comment" hidden>Enter comments...</label>
+      <textarea
+        class="modal-form-message"
+        name="user_comment"
+        rows="5"
+        placeholder="Enter comments..."
+      ></textarea>
+      </label>
+      <button class="modal-btn" type="submit">
+        <span class="modal-btn-txt">Submit</span>
+      </button>
+    </form>
+    <div class="modal-picture">
+      <img class="modal-picture-img" src="..//img/modal/girl-with-bananas.png" alt="girl-with-bananas" width="471" height="458" loading="lazy">
+    </div>
   </div>
 </section>

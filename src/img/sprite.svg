@@ -96,5 +96,10 @@
             <path d="M29.867 4.588l-4.425-4.425v22.123l-22.123-22.123-3.319 3.319 22.124 22.123h-22.124l4.425 4.425h25.442v-25.442z"></path>
             </symbol>
         </symbol>
+         <!-- Modalka clouse -->
+        <symbol id="icon-x" viewBox="0 0 32 32">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M24 8l-16 16"></path>
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8 8l16 16"></path>
+        </symbol>
     </defs>
 </svg>
