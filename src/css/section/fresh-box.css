@@ -4,7 +4,7 @@
 
 @media only screen and (min-width: 768px) {
   .fresh-box {
-    margin-top: 140px;
+   padding: 144px 32px;
   }
 }
 
@@ -69,7 +69,7 @@
     font-weight: 500;
     font-size: 54px;
     top: -76px;
-    left: -135px;
+    right: 36px;
     width: 648px;
   }
 }
@@ -82,7 +82,8 @@
 
 @media only screen and (min-width: 768px) {
   .txt-fresh-box {
-    margin-bottom: 80px;
+    width: 490px;
+    margin: 0 auto 80px;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -108,6 +109,10 @@
   }
 }
 
+
+
+
+
 @media only screen and (min-width: 768px) {
   .input-fresh-box {
     display: block;
@@ -120,11 +125,25 @@
     padding: 15px 24px;
   }
 }
+.input-fresh-box::placeholder{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+
+  color: #FFFFFF;
+  
+  opacity: 0.5;
+
+}
+
+
 
 @media only screen and (min-width: 768px) {
   .form-btn {
     position: absolute;
-    left: 200px;
+    right: 168px;;
     width: 102px;
     height: 48px;
     background: #9dc162;
