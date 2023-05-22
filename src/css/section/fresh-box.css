@@ -4,7 +4,7 @@
 
 @media only screen and (min-width: 768px) {
   .fresh-box {
-   padding: 144px 32px;
+    padding: 144px 32px;
   }
 }
 
@@ -21,13 +21,13 @@
 
 @media only screen and (max-width: 1279px) {
   .photo-fresh-box {
-   gap: 16px;
+    gap: 16px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .photo-fresh-box {
-   gap: 24px;
+    gap: 24px;
   }
 }
 
@@ -39,16 +39,16 @@
   border-radius: 20px;
 }
 
-.img-one-desktop{
+.img-one-desktop {
   border-radius: 20px;
 }
 
-.img-two-desktop{
+.img-two-desktop {
   border-radius: 20px;
 }
 
 @media only screen and (min-width: 1279px) {
-  .img-one{
+  .img-one {
     display: none;
   }
 }
@@ -60,19 +60,19 @@
 }
 
 @media only screen and (max-width: 1279px) {
-  .img-one-desktop{
-   display: none;
+  .img-one-desktop {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 1279px) {
-  .img-two-desktop{
+  .img-two-desktop {
     display: none;
   }
 }
 
 @media only screen and (min-width: 1279px) {
-  .img-one-tablet{
+  .img-one-tablet {
     display: none;
   }
 }
@@ -105,7 +105,7 @@
   margin: auto;
   position: absolute;
   top: -52px;
-  left: 28px;
+  left: 37px;
   width: 302px;
 }
 
@@ -114,7 +114,7 @@
     font-weight: 500;
     font-size: 54px;
     top: -76px;
-    right: 36px;
+    right: -3px;
     width: 648px;
   }
 }
@@ -169,17 +169,16 @@
   }
 }
 
-.input-fresh-box::placeholder{
+.input-fresh-box::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.04em;
 
-  color: #FFFFFF;
-  
-  opacity: 0.5;
+  color: #ffffff;
 
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 768px) {
@@ -196,7 +195,8 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .form-btn{position: absolute;
+  .form-btn {
+    position: absolute;
     right: 431px;
     width: 102px;
     height: 48px;
@@ -204,6 +204,5 @@
     border-radius: 100px;
     border: 1px solid #9dc162;
     color: #fff;
-    
   }
 }
