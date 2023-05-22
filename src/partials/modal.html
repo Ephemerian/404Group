@@ -1,5 +1,83 @@
 <section class="hero" id="hero">
-  <div class="container hero__container">
-    <p>Hero section</p>
-  </div>
+<div class="backdrop">
+<div class="modal-window container">
+  <h2>Your Order</h2>
+<button class="modal-closse-btn" type="button">
+  <svg width="14" height="14">
+    <use href="../img/sprite.svg#icon-close"></use>
+  </svg>
+</button>
+  <ul class="list">
+  
+    <li  class="strawberry-box-item">
+      <h3>Strawberry Basket</h3>
+      <p>Plant</p>
+      <img src="../img/modal/box-strawberry.png" alt="Basket with strawberrys">
+    </li>
+
+    <li class="appels-box-item">
+      <h3>Apple Basket</h3>
+      <p>Plant</p>
+      <img src="../img/modal/box-fruits.png" alt="Basket with appels">
+    </li>
+
+    <li class="fruits-box-item">
+      <h3>Fruits Basket</h3>
+      <p>Plant</p>
+      <img src="../img/modal/cup-fruits.png" alt="Basket with fruits mix"></li>
+  
+  </ul>
+
+  <input type="checkbox">
+  <input type="checkbox">
+  <input type="checkbox">
+
+  <img class="img-girl" src="../img/modal/girl-with-bananas.png" alt="Girl with bananas" width="471" height="458">
+  <form action="">
+    <label class="modal-form-label" for="user_name">
+      <span class="user-form-titel">Name</span>
+      <input
+        class="modal-form-input"
+        type="text"
+        name="user_name"
+        id="user_name"
+        required
+        minlength="2"
+      />
+    </label>
+
+    <label class="modal-form-label" for="user_email">
+      <span class="user-form-titel">Email</span>
+      <input
+        class="modal-form-input"
+        type="email"
+        name="user_email"
+        id="user_email"
+        required
+      />
+    </label>
+
+    <label class="modal-form-label" for="user_card">
+      <span class="user-form-titel">Card</span>
+      <input
+        class="modal-form-input"
+        type="number"
+        name="user_card"
+        id="user_phone"
+        required
+        minlength="12"
+        maxlength="15"
+      />
+    </label>
+
+    <label for="user_comment">
+    <textarea name="" id="user_comment" cols="30" rows="10">
+    </textarea>
+
+  </label>
+
+    <button class="modal-submit-btn" type="submit">Submit</button>
+  </form>
+</div>
+</div>
 </section>

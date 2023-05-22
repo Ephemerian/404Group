@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 768px) {
   .organic-section-text {
-    width: 547px;
+    max-width: 547px;
   }
 }
 
