@@ -13,7 +13,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/404Group/assets/index-873d8c99.js"></script>
-    <link rel="stylesheet" href="/404Group/assets/index-ced318a1.css">
+    <link rel="stylesheet" href="/404Group/assets/index-81ff083c.css">
   </head>
   <body>
     <header class="header">
@@ -98,8 +98,12 @@
 
 
     <main>
-      <section class=" section hero-section" id="hero">
+      <section class="section hero-section" id="hero">
   <div class="container hero__container">
+    <h1 class="hero__center_text">
+      fresh harvest box <br />
+      is your one-stop place for a delicious fruit basket
+    </h1>
     <!-- HERO LEFT -->
     <div class="hero__left-side">
       <p class="hero__left-text">
@@ -109,8 +113,13 @@
       </p>
       <div class="hero__left-card">
         <span class="hero__card-title">Fruit</span>
-        <img class="hero__left-card-img" srcset="/404Group/assets/wm@1x-c94fed5e.png 1x, /404Group/assets/wm@2x-049d5846.png 2x"
-          src="/404Group/assets/wm@1x-c94fed5e.png" alt="watermelons" />
+        <img
+          class="hero__left-card-img"
+          srcset="/404Group/assets/wm@2x-049d5846.png 2x"
+          src="/404Group/assets/wm@1x-c94fed5e.png"
+          alt="watermelons"
+          loading="lazy"
+        />
         <p class="hero__left-card-text">
           Refreshing and juicy, watermelon is the perfect summer treat and a
           great source of hydration
@@ -119,11 +128,23 @@
     </div>
     <!-- HERO CENTER -->
     <div class="hero__center">
-      <h1 class="hero__center_text">
-        fresh harvest box is your one-stop place for a delicious fruit basket
-      </h1>
-      <img class="hero__center_img" srcset="/404Group/assets/hero@1x-39e158d4.jpg 1x, /404Group/assets/hero@2x-56e85a03.jpg 2x"
-        src="/404Group/assets/hero@1x-39e158d4.jpg" alt="girl with orange in hand" loading="lazy" />
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/404Group/assets/hero-desk@1x-39e158d4.jpg 1x, /404Group/assets/hero-desk@2x-56e85a03.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/404Group/assets/hero-tab@1x-d10718c1.jpg 1x, /404Group/assets/hero-desk@2x-56e85a03.jpg 2x"
+        />
+        <img
+          class="hero__center_img"
+          srcset="/404Group/assets/hero-mob@2x-e5ed4486.jpg 2x"
+          src="/404Group/assets/hero-mob@1x-29ec8130.jpg"
+          alt="girl with orange"
+          loading="lazy"
+        />
+      </picture>
       <a class="hero__center_link" href="#organic-fruits">shop now</a>
     </div>
     <!-- HERO RIGHT -->
@@ -144,8 +165,13 @@
       </ul>
       <div class="hero__right-card">
         <span class="hero__card-title">Fruit</span>
-        <img class="hero__right-card-img" srcset="/404Group/assets/srt-bask@1x-3d967c44.png 1x, /404Group/assets/srt-bask@2x-d0671ce1.png 2x"
-          src="/404Group/assets/srt-bask@1x-3d967c44.png" alt="watermelons" />
+        <img
+          class="hero__right-card-img"
+          srcset="/404Group/assets/srt-bask@2x-d0671ce1.png 2x"
+          src="/404Group/assets/srt-bask@1x-3d967c44.png"
+          alt="watermelons"
+          loading="lazy"
+        />
         <p class="hero__right-card-text">
           Sweet and juicy, strawberries are packed with vitamin C and
           antioxidants, making them a delicious and healthy snack
@@ -154,6 +180,7 @@
     </div>
   </div>
 </section>
+
       <section class="order" id="order">
   <div class="container order__container">
     <h2 class="section-title order-title">
