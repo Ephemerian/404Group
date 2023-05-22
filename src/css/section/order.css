@@ -1,12 +1,15 @@
 .order-title {
+  font-size: 28px;
+  line-height: 28px;
   width: 335px;
-  font-size: 40px;
   margin: 0 auto 14px;
   box-shadow: 0px 4px 70px 0px #0000001a;
 }
 
 @media only screen and (min-width: 768px) {
   .order-title {
+    font-size: 40px;
+    line-height: 44px;
     width: 624px;
     text-align: center;
   }
