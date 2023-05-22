@@ -159,13 +159,15 @@
 @media only screen and (min-width: 768px) {
   .input-fresh-box {
     display: block;
-    border-radius: 100px;
-    background-color: #ae1332;
-    border: 1px solid #fff;
+    border-radius: 50px;
+    color: var(--text-cl);
+    background-color: transparent;
+    border: 1px solid #fff4;
     margin: auto;
     height: 48px;
     width: 292px;
     padding: 15px 24px;
+    outline: none;
   }
 }
 
