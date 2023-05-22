@@ -185,8 +185,9 @@
   gap: 200px;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: calc(100% - 10vw);
   height: 100vh;
+  /* overflow-x:hidden; */
   background-color: var(--main-cl);
   z-index: 999;
 
