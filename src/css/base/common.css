@@ -78,7 +78,6 @@
   margin-left: auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 80px;
   margin: auto;
   text-align: center;
 }
@@ -115,4 +114,8 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.04em;
+}
+
+section {
+  padding-bottom: 80px;
 }
