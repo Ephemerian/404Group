@@ -150,3 +150,42 @@
     gap: 243px;
   }
 }
+
+
+.go-up {
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  
+  font-size: 20px;
+  padding: 11px;
+
+  color: var(--text-cl);
+  background-color: var( --accent-yellow-cl);
+
+  border: none;
+  border-radius: 50px;
+
+  cursor: pointer;
+}
+
+.go-up:hover,
+.go-up:focus {
+  background-color: var(--accent-green-cl);
+}
+
+.go-up-visible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.go-up-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(225deg);
+  fill: currentColor;
+}
