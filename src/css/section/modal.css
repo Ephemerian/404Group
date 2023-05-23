@@ -1,0 +1,54 @@
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-cl);
+}
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  width: 335px;
+  height: 903px;
+}
+
+.modal-closse-btn {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+
+.strawberry-box-item {
+  width: 295px;
+  height: 119px;
+  background-color: #f8766b;
+  border-radius: 20px;
+}
+
+.appels-box-item {
+  width: 295px;
+  height: 119px;
+  background-color: #edd251;
+  border-radius: 20px;
+}
+
+.fruits-box-item {
+  width: 295px;
+  height: 119px;
+  background-color: #9dc262;
+  border-radius: 20px;
+}
+
+.img-girl{
+    display: none;
+}
+
+.modal-submit-btn{
+    margin-right: auto;
+    width: 92px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: var(--accent-green-cl);
+}
