@@ -1,22 +1,83 @@
-<section class="fresh-box" id="fresh-box">
+<section class="fresh-box">
   <div class="container fresh-box__container">
-    
-    <h1 class="title-fresh-box"> Fresh Harvest Box has got you covered</h1>
+    <h1 class="title-fresh-box" id="fresh-box">
+      Fresh Harvest Box has got you covered
+    </h1>
 
-    <img src="../img/fresh-box/fresh-box-1.jpg" alt="photo">
-    <img src="../img/fresh-box/fresh-box-2.jpg" alt="photo">
+    <ul class="photo-fresh-box">
+      <li class="one-photo">
+        <img class="img-one" src="./img/fresh-box/one-photo.jpg" alt="photo" />
+        <img
+          class="img-one-desktop"
+          src="./img/fresh-box/fresh-box-1.jpg"
+          alt="photo"
+        />
+      </li>
+      <li class="two-photo">
+        <img
+          class="img-one-tablet"
+          src="./img/fresh-box/one-photo-2.jpg"
+          alt="photo"
+        />
+        <img
+          class="img-two-desktop"
+          src="./img/fresh-box/fresh-box-2.jpg"
+          alt="photo"
+        />
+      </li>
+    </ul>
+    <div>
+      <p class="txt-fresh-box">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
 
-    <p class="txt-fresh-box">
-      Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier
-      or support local farmers. Order your box today and start enjoying the best that nature has to offer!
-    </p>
-
-    <form action="">
-      <input class="input-fresh-box" type="email" name="email" required id="email">
-      <button class="form-btn" type="submit">send</button>
-    </form>
-
-
-
+      <form class="form-fresh-box" action="">
+        <input
+          class="input-fresh-box"
+          type="email"
+          name="email"
+          required
+          id="email"
+          placeholder="Enter email..."
+        />
+        <button
+          class="form-btn js-open-modal"
+          data-modal="2"
+          type="submit"
+          placeholder="Enter email..."
+        >
+          Send
+        </button>
+      </form>
+    </div>
+    <div class="modal" data-modal="2">
+      <div class="modal-fresh-box">
+        <svg
+          class="modal__cross js-modal-close"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="white"
+            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+          />
+        </svg>
+        <img
+          class="modal-image"
+          src="./img/modal-thanks/raspberries.png"
+          alt="raspberries"
+        />
+        <h2 class="modal-title">THANK YOU</h2>
+        <p class="modal-text">
+          Thank you for your order! Our team is preparing your box with fresh,
+          delicious fruits and vegetables, and we'll deliver it straight to your
+          doorstep. We appreciate your business and look forward to providing
+          you with the best possible experience!
+        </p>
+      </div>
+    </div>
   </div>
 </section>

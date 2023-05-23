@@ -1,5 +1,6 @@
 .header {
-  position: fixed;
+  position: static;
+  z-index: 10;
   top: 0;
   width: 100%;
 
@@ -7,13 +8,12 @@
 }
 
 .header__container {
-  padding-top: 17px;
-  padding-bottom: 17px;
-
+  height: 50px;
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 94px;
+  /* gap: 94px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -145,4 +145,123 @@
 .header__bascket:hover,
 .header__bascket:focus {
   fill: var(--accent-green-cl);
+}
+
+/* Mobile toogle styles */
+
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+
+  stroke: var(--color-navy-blue);
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mobile__container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  gap: 200px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  background-color: var(--main-cl);
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.mobile__container.is-open {
+  transform: translateX(0);
+}
+
+
+.mobile__header {
+  display: flex;
+  padding: 13px 17px;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+
+  background-color: var(--text-cl);
+}
+
+.mobile__toogle {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+
+  stroke: var(--main-cl);
+
+  cursor: pointer;
+}
+
+.mobile__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.mobile__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  color: var(--text-cl);
+}
+
+
+.mobile__list .link {
+  display: block;
+
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.mobile__item .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.04em;
+}
+
+.mobile__bascket {
+  background-color: transparent;
+  border: none;
+  fill: var(--text-cl);
+
 }
