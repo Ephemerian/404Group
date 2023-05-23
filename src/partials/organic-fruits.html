@@ -130,7 +130,99 @@
       <svg class="organic-btn-svg" width="14" height="14">
         <use href="./img/sprite.svg#icon-arrow"></use>
       </svg>
-      <div class="organic-btn-txt">ORDER</div>
+      <div class="organic-btn-txt js-open-modal" data-modal="2">ORDER</div>
     </button>
+
+    <!-- Modal window -->
+
+    <div class="modal-order modal" data-modal="2">
+      <div class="modal-order-box">
+        <svg
+          class="modal__cross js-modal-close"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+          />
+        </svg>
+        <h2 class="modal-order-titel">YOUR ORDER</h2>
+        <ul class="list modal-list">
+          <li class="modal-item-strawberry">
+            <h3 class="modal-order-titels">Strawberry Basket</h3>
+            <p class="modal-order-desc">Plant</p>
+            <img
+              class="fruits-box-img"
+              src="../img/modal/box-strawberry.png"
+              alt="Basket with strawberry"
+            />
+            <input class="fruits-checkbox" type="checkbox" />
+          </li>
+          <li class="modal-item-appels">
+            <h3 class="modal-order-titels">Apple Basket</h3>
+            <p class="modal-order-desc">Plant</p>
+            <img
+              class="fruits-box-img"
+              src="../img/modal/box-fruits.png"
+              alt="Basket with apple"
+            />
+            <input class="fruits-checkbox" type="checkbox" />
+          </li>
+          <li class="modal-item-fruits" class="modal-item-fruits">
+            <h3 class="modal-order-titels">Fruits Basket</h3>
+            <p class="modal-order-desc">Plant</p>
+            <img
+              class="fruits-box-img"
+              src="../img/modal/cup-fruits.png"
+              alt="Basket with fruits mix"
+            />
+            <input class="fruits-checkbox" type="checkbox" />
+          </li>
+        </ul>
+
+        <form class="customers-form" name="customers-form">
+          <label class="customers-form-label" for="">
+            <input
+              class="customers-form-input"
+              type="text"
+              placeholder="Enter full name..."
+            />
+          </label>
+
+          <label class="customers-form-label">
+            <input
+              class="customers-form-input"
+              type="email"
+              placeholder="Enter email..."
+            />
+          </label>
+
+          <label class="customers-form-label">
+            <input
+              class="customers-form-input"
+              type="text"
+              placeholder="Enter card..."
+              pattern="[a-z0-9]+"
+            />
+          </label>
+          <label class="customers-form-label" for="customers-comment">
+            <textarea
+              class="customers-form-textarea"
+              name=""
+              id="customers-comment"
+              cols="15"
+              rows="5"
+            ></textarea>
+          </label>
+          <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+        <img
+          class="modal-img"
+          src="../img/modal/girl-with-bananas.png"
+          alt="Girl with bananas"
+          loading="lazy"
+        />
+      </div>
+    </div>
   </div>
 </section>
