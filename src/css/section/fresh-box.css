@@ -13,6 +13,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .fresh-box__container {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .photo-fresh-box {
     margin-bottom: 80px;
     display: flex;
