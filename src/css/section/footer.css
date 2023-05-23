@@ -5,10 +5,10 @@
 
 @media screen and (min-width:768px) {
   .footer__container {
+    padding-bottom: 0;
 
     display: flex;
-    /* gap: 171px; */
-    padding-bottom: 0;
+    
     justify-content: space-between;
     align-items: center;
   }
@@ -125,6 +125,9 @@
   background: rgba(174, 19, 50, 0.1);
 }
 
+.address__list {
+  max-width: 140px;
+  margin: 0 auto;
 
 
 .address__list {
@@ -151,14 +154,15 @@
 }
 
 .address__item {
-
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-
+  align-items: center; */
+  display: block;
+  text-align: left;
 }
 
 .address__link {
+  display: block;
   font-style: normal;
   font-weight: 400;
   /*font-size: 14px;*/
