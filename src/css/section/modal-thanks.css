@@ -28,8 +28,7 @@
   background-color: none;
 }
 
-.modal-thanks {
-  letter-spacing: uppercase;
+.thanks-modal-title {
   color: #fff;
   margin-bottom: 14px;
 }
