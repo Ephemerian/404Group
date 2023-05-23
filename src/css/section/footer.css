@@ -5,9 +5,9 @@
 
 @media screen and (min-width:768px) {
   .footer__container {
+    padding-bottom: 0;
 
     display: flex;
-    /* gap: 171px; */
     justify-content: space-between;
     align-items: center;
   }
@@ -113,8 +113,7 @@
 
 .address__list {
   max-width: 140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 
   display: flex;
   justify-content: center;
@@ -122,18 +121,18 @@
   gap: 14px;
   flex-wrap: wrap;
 
-
 }
 
 .address__item {
-
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-
+  align-items: center; */
+  display: block;
+  text-align: left;
 }
 
 .address__link {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
