@@ -69,15 +69,23 @@
 
 .footer__link {
   font-weight: 400;
-  /*font-size: 14px;*/
+  font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
 
   color: var(--main-cl);
 
   transition: color;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width:768px){
+  .footer__link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  
 }
 
 .footer__link {
