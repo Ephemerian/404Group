@@ -210,19 +210,19 @@
   color: var(--accent-green-cl);
   background-color: var(--text-cl);
 }
-.organic-fruits.modal {
+.modal-order {
   display: flex;
-  width: 335px;
-  height: 903px;
-  padding: 20px;
   align-items: center;
   flex-direction: column;
 }
+
 .modal-order-box {
   display: flex;
+  width: 335px;
+  height: 903px;
   align-items: center;
   flex-direction: column;
-  
+  padding: 20px;
   background-color: var(--text-cl);
 }
 
@@ -232,6 +232,26 @@
   gap: 12px;
 }
 
+@media only screen and (min-width: 768px) {
+  .modal-order-box {
+    position: relative;
+    width: 704px;
+    height: 853px;
+    padding: 40px;
+  }
+  .modal-list {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .modal-order-box {
+    width: 891px;
+    height: 911px;
+  }
+}
+
+
 .modal-order-titel {
   color: var(--main-cl);
   font-weight: 500;
@@ -240,7 +260,6 @@
   margin-bottom: 40px;
   margin-right: auto;
 }
-
 
 .modal-item-strawberry {
   display: flex;
@@ -268,6 +287,7 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+  margin-bottom: 40px;
   position: relative;
   padding: 20px 32px 8px 20px;
   width: 295px;
@@ -276,13 +296,78 @@
   border-radius: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .modal-item-strawberry {
+    width: 200px;
+    height: 250px;
+    padding: 40px 30px 14px 20px;
+  }
+  .modal-item-appels {
+    width: 200px;
+    height: 250px;
+    padding: 40px 30px 14px 20px;
+  }
+  .modal-item-fruits {
+    width: 200px;
+    height: 250px;
+    padding: 40px 30px 14px 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .modal-item-strawberry {
+    width: 257px;
+    height: 308px;
+  }
+
+  .modal-item-appels{
+    width: 257px;
+    height: 308px;
+  }
+
+  .modal-item-fruits{
+    width: 257px;
+    height: 308px;
+  }
+}
+
+.fruits-checkbox {
+  opacity: 0;
+}
+
+.check-icon {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.fruits-checkbox:checked + .check-icon > .uncheck {
+  opacity: 0;
+}
+
+.check {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+input[type='checkbox']:checked + .check-icon > .check {
+  opacity: 1;
+}
+
 .modal-order-titels {
   font-size: 18px;
   line-height: 24px;
   margin-right: auto;
 }
 
-.modal-order-desc{
+@media only screen and (min-width: 1280px) {
+  .modal-order-titels {
+    font-size: 24px;
+  }
+}
+
+.modal-order-desc {
   margin-right: auto;
 }
 
@@ -293,7 +378,26 @@
   width: 88px;
   height: 95px;
 }
-.fruits-checkbox{
+
+@media only screen and (min-width: 768px) {
+  .fruits-box-img {
+    top: 95px;
+    right: 30px;
+    width: 133px;
+    height: 148px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .fruits-box-img {
+    top: 110px;
+    right: 50px;
+    width: 173px;
+    height: 196px;
+  }
+}
+
+.fruits-checkbox {
   position: absolute;
   top: 14px;
   right: 14px;
@@ -303,9 +407,69 @@
   display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .modal-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 40%;
+    height: 467px;
+  }
+}
 .customers-form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  margin-right: auto;
+  gap: 14px;
 }
 
+.customers-form-input {
+  width: 295px;
+  height: 46px;
+  padding: 10px;
+  background-color: transparent;
+  opacity: 0.3;
+  border: 1px solid #000000;
+  border-radius: 100px;
+}
+
+.customers-form-textarea {
+  padding: 10px;
+  background-color: transparent;
+  opacity: 0.3;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .customers-form-input {
+    width: 360px;
+    height: 48px;
+  }
+  .customers-form-textarea{
+    width: 360px;
+    height: 145px;
+  }
+}
+
+.form-submit-btn {
+  width: 92px;
+  height: 42px;
+
+  padding: 12px 24px;
+  margin-top: auto;
+  margin-right: auto;
+
+  color: var(--text-cl);
+  background-color: var(--accent-green-cl);
+  border: none;
+  border-radius: 100px;
+}
+
+.form-submit-btn:hover,
+.form-submit-btn:focus {
+  color: var(--accent-green-cl);
+  background-color: var(--text-cl);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}

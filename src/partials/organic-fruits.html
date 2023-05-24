@@ -135,7 +135,7 @@
 
     <!-- Modal window -->
 
-    <div class="modal-order modal" data-modal="2">
+    <div class="modal-order" data-modal="2">
       <div class="modal-order-box">
         <svg
           class="modal__cross js-modal-close"
@@ -156,7 +156,19 @@
               src="../img/modal/box-strawberry.png"
               alt="Basket with strawberry"
             />
-            <input class="fruits-checkbox" type="checkbox" />
+            <label>
+              <input class="fruits-checkbox" type="checkbox" />
+              <svg class="check-icon" width="16" height="16">
+                <use class="check" href="../img/sprite.svg#icon-checkbox"></use>
+              </svg>
+
+              <svg class="check-icon" width="16" height="16">
+                <use
+                  class="uncheck"
+                  href="../img/sprite.svg#icon-uncheckbox"
+                ></use>
+              </svg>
+            </label>
           </li>
           <li class="modal-item-appels">
             <h3 class="modal-order-titels">Apple Basket</h3>
@@ -166,7 +178,19 @@
               src="../img/modal/box-fruits.png"
               alt="Basket with apple"
             />
-            <input class="fruits-checkbox" type="checkbox" />
+            <label>
+              <input class="fruits-checkbox" type="checkbox" />
+              <svg class="check-icon" width="16" height="16">
+                <use class="check" href="../img/sprite.svg#icon-checkbox"></use>
+              </svg>
+
+              <svg class="check-icon" width="16" height="16">
+                <use
+                  class="uncheck"
+                  href="../img/sprite.svg#icon-uncheckbox"
+                ></use>
+              </svg>
+            </label>
           </li>
           <li class="modal-item-fruits" class="modal-item-fruits">
             <h3 class="modal-order-titels">Fruits Basket</h3>
@@ -176,7 +200,19 @@
               src="../img/modal/cup-fruits.png"
               alt="Basket with fruits mix"
             />
-            <input class="fruits-checkbox" type="checkbox" />
+            <label>
+              <input class="fruits-checkbox" type="checkbox" />
+              <svg class="check-icon" width="16" height="16">
+                <use class="check" href="../img/sprite.svg#icon-checkbox"></use>
+              </svg>
+
+              <svg class="check-icon" width="16" height="16">
+                <use
+                  class="uncheck"
+                  href="../img/sprite.svg#icon-uncheckbox"
+                ></use>
+              </svg>
+            </label>
           </li>
         </ul>
 
@@ -186,6 +222,7 @@
               class="customers-form-input"
               type="text"
               placeholder="Enter full name..."
+              required
             />
           </label>
 
@@ -194,6 +231,7 @@
               class="customers-form-input"
               type="email"
               placeholder="Enter email..."
+              required
             />
           </label>
 
@@ -203,21 +241,28 @@
               type="text"
               placeholder="Enter card..."
               pattern="[a-z0-9]+"
+              required
             />
           </label>
           <label class="customers-form-label" for="customers-comment">
             <textarea
               class="customers-form-textarea"
-              name=""
+              name="customers_form_textarea"
               id="customers-comment"
-              cols="15"
+              cols="35"
               rows="5"
+              placeholder="Enter comments..."
             ></textarea>
           </label>
           <button class="form-submit-btn" type="submit">Submit</button>
         </form>
         <img
           class="modal-img"
+          srcset="
+            ../img/modal/girl-with-bananas.png 370w,
+            ../img/modal/girl-with-bananas-tab.png 450w"
+
+            sizes="(min-width: 1280px) 370px, (min-width: 768px) 450px, 100vw"
           src="../img/modal/girl-with-bananas.png"
           alt="Girl with bananas"
           loading="lazy"
