@@ -41,14 +41,15 @@
   border-radius: 20px;
 }
 
-.img-girl{
-    display: none;
+.img-girl {
+  display: none;
 }
 
-.modal-submit-btn{
-    margin-right: auto;
-    width: 92px;
-    height: 42px;
-    border-radius: 100px;
-    background-color: var(--accent-green-cl);
+
+.modal-submit-btn {
+  margin-right: auto;
+  width: 92px;
+  height: 42px;
+  border-radius: 100px;
+  background-color: var(--accent-green-cl);
 }
