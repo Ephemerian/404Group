@@ -96,5 +96,14 @@
             <path d="M29.867 4.588l-4.425-4.425v22.123l-22.123-22.123-3.319 3.319 22.124 22.123h-22.124l4.425 4.425h25.442v-25.442z"></path>
             </symbol>
         </symbol>
+
+        <!-- Chackbox icons -->
+        <symbol id="icon-checkbox" viewBox="0 0 32 32">
+            <path fill="#fff" style="fill: var(--color1, #fff)" d="M19.807 10.527c0.372-0.549 1.118-0.692 1.667-0.32s0.692 1.118 0.32 1.667l-6.508 9.6c-0.476 0.702-1.51 0.702-1.986 0l-3.091-4.56c-0.372-0.549-0.229-1.295 0.32-1.667s1.295-0.229 1.667 0.32l2.098 3.095 5.515-8.135z"></path>
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3" d="M8 1.5h16c3.59 0 6.5 2.91 6.5 6.5v16c0 3.59-2.91 6.5-6.5 6.5h-16c-3.59 0-6.5-2.91-6.5-6.5v-16c0-3.59 2.91-6.5 6.5-6.5z"></path>
+        </symbol>
+        <symbol id="icon-uncheckbox" viewBox="0 0 32 32">
+        <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3" d="M8 1.5h16c3.59 0 6.5 2.91 6.5 6.5v16c0 3.59-2.91 6.5-6.5 6.5h-16c-3.59 0-6.5-2.91-6.5-6.5v-16c0-3.59 2.91-6.5 6.5-6.5z"></path>
+        </symbol>
     </defs>
 </svg>
