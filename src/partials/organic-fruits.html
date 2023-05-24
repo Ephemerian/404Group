@@ -126,16 +126,16 @@
         <a class="organic-price-link" href="">90 UAH / kg</a>
       </li>
     </ul>
-    <button class="organic_btn" type="button">
+    <button class="organic_btn js-open-modal" data-modal="1" type="button">
       <svg class="organic-btn-svg" width="14" height="14">
         <use href="./img/sprite.svg#icon-arrow"></use>
       </svg>
-      <div class="organic-btn-txt js-open-modal" data-modal="2">ORDER</div>
+      <div class="organic-btn-txt">ORDER</div>
     </button>
 
     <!-- Modal window -->
 
-    <div class="modal-order" data-modal="2">
+    <div class="modal-js modal-order" data-modal="1">
       <div class="modal-order-box">
         <svg
           class="modal__cross js-modal-close"
@@ -152,20 +152,20 @@
             <h3 class="modal-order-titels">Strawberry Basket</h3>
             <p class="modal-order-desc">Plant</p>
             <img
-              class="fruits-box-img"
-              src="../img/modal/box-strawberry.png"
+              class="fruits-box-strawberry"
+              src="./img/modal/box-strawberry.png"
               alt="Basket with strawberry"
             />
             <label>
               <input class="fruits-checkbox" type="checkbox" />
               <svg class="check-icon" width="16" height="16">
-                <use class="check" href="../img/sprite.svg#icon-checkbox"></use>
+                <use class="check" href="./img/sprite.svg#icon-checkbox"></use>
               </svg>
 
               <svg class="check-icon" width="16" height="16">
                 <use
                   class="uncheck"
-                  href="../img/sprite.svg#icon-uncheckbox"
+                  href="./img/sprite.svg#icon-uncheckbox"
                 ></use>
               </svg>
             </label>
@@ -174,20 +174,20 @@
             <h3 class="modal-order-titels">Apple Basket</h3>
             <p class="modal-order-desc">Plant</p>
             <img
-              class="fruits-box-img"
-              src="../img/modal/box-fruits.png"
+              class="fruits-box-apple"
+              src="./img/modal/box-fruits.png"
               alt="Basket with apple"
             />
             <label>
               <input class="fruits-checkbox" type="checkbox" />
               <svg class="check-icon" width="16" height="16">
-                <use class="check" href="../img/sprite.svg#icon-checkbox"></use>
+                <use class="check" href="./img/sprite.svg#icon-checkbox"></use>
               </svg>
 
               <svg class="check-icon" width="16" height="16">
                 <use
                   class="uncheck"
-                  href="../img/sprite.svg#icon-uncheckbox"
+                  href="./img/sprite.svg#icon-uncheckbox"
                 ></use>
               </svg>
             </label>
@@ -196,20 +196,20 @@
             <h3 class="modal-order-titels">Fruits Basket</h3>
             <p class="modal-order-desc">Plant</p>
             <img
-              class="fruits-box-img"
-              src="../img/modal/cup-fruits.png"
+              class="fruits-box-mix"
+              src="./img/modal/cup-fruits.png"
               alt="Basket with fruits mix"
             />
             <label>
               <input class="fruits-checkbox" type="checkbox" />
               <svg class="check-icon" width="16" height="16">
-                <use class="check" href="../img/sprite.svg#icon-checkbox"></use>
+                <use class="check" href="./img/sprite.svg#icon-checkbox"></use>
               </svg>
 
               <svg class="check-icon" width="16" height="16">
                 <use
                   class="uncheck"
-                  href="../img/sprite.svg#icon-uncheckbox"
+                  href="./img/sprite.svg#icon-uncheckbox"
                 ></use>
               </svg>
             </label>
@@ -259,11 +259,11 @@
         <img
           class="modal-img"
           srcset="
-            ../img/modal/girl-with-bananas.png 370w,
-            ../img/modal/girl-with-bananas-tab.png 450w"
-
-            sizes="(min-width: 1280px) 370px, (min-width: 768px) 450px, 100vw"
-          src="../img/modal/girl-with-bananas.png"
+            ./img/modal/girl-with-bananas.png     370w,
+            ./img/modal/girl-with-bananas-tab.png 450w
+          "
+          sizes="(min-width: 1280px) 370px, (min-width: 768px) 450px, 100vw"
+          src="./img/modal/girl-with-bananas.png"
           alt="Girl with bananas"
           loading="lazy"
         />

@@ -210,10 +210,40 @@
   color: var(--accent-green-cl);
   background-color: var(--text-cl);
 }
+
+/* Modal */
+
 .modal-order {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  opacity: 0;
+    visibility: hidden;
+  
+    width: 891px;
+    height: 911px;
+  
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+  
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+}
+
+.modal-order.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+  /* border-radius: 20px; */
+  overflow: hidden;
 }
 
 .modal-order-box {
@@ -224,6 +254,7 @@
   flex-direction: column;
   padding: 20px;
   background-color: var(--text-cl);
+  border-radius: 20px;
 }
 
 .modal-list {
@@ -371,28 +402,72 @@ input[type='checkbox']:checked + .check-icon > .check {
   margin-right: auto;
 }
 
-.fruits-box-img {
+.fruits-box-strawberry {
   position: absolute;
   top: 20px;
-  right: 10px;
+  right: 25px;
   width: 88px;
   height: 95px;
 }
 
+.fruits-box-apple {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  width: 107px;
+  height: 95px;
+}
+
+.fruits-box-mix {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  width: 106px;
+  height: 95px;
+}
+
 @media only screen and (min-width: 768px) {
-  .fruits-box-img {
+  .fruits-box-strawberry {
     top: 95px;
     right: 30px;
     width: 133px;
     height: 148px;
   }
+
+  .fruits-box-mix {
+    top: 95px;
+    right: 20px;
+    width: 172px;
+    height: 148px;
+  }
+
+  .fruits-box-apple {
+    top: 95px;
+    right: 15px;
+    width: 172px;
+    height: 148px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-  .fruits-box-img {
+  .fruits-box-strawberry {
     top: 110px;
     right: 50px;
     width: 173px;
+    height: 196px;
+  }
+  
+  .fruits-box-mix {
+    top: 110px;
+    right: 20px;
+    width: 229px;
+    height: 196px;
+  }
+  
+  .fruits-box-apple {
+    top: 110px;
+    right: 15px;
+    width: 229px;
     height: 196px;
   }
 }
@@ -413,7 +488,6 @@ input[type='checkbox']:checked + .check-icon > .check {
     bottom: 0;
     right: 0;
     display: block;
-    width: 40%;
     height: 467px;
   }
 }
