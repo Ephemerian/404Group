@@ -13,7 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 94px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -193,6 +192,8 @@
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+
+  overflow: scroll;
 }
 
 .mobile__container.is-open {
